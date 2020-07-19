@@ -4,7 +4,13 @@
       <p class="time">{{ time }}</p>
       <p class="mines">{{ restMinesShow }}</p>
     </div>
-    <div class="stage-wrapper" :data-loading="loading">
+    <div
+      class="stage-wrapper"
+      :data-loading="loading"
+      :style="{
+        height: height + 'px'
+      }"
+    >
       <div class="canvas-wrapper">
         <canvas
           class="canvas"
@@ -144,7 +150,7 @@ export default {
 }
 .content-container {
   width: 100%;
-  height: calc(~'100% - 220px');
+  height: calc(~'100% - 190px');
   text-align: center;
   .info-wrapper {
     width: 350px;
@@ -163,7 +169,7 @@ export default {
   .stage-wrapper {
     display: inline-block;
     max-width: 100%;
-    max-height: calc(~'100% - 60px');
+    max-height: calc(~'100% - 65px');
     overflow: hidden;
     position: relative;
     &::before {

@@ -135,8 +135,8 @@ html, body {
   .title-wrapper {
     display: inline-block;
     margin-top: 50px;
-    padding: 40px 10px;
-    height: 170px;
+    padding: 40px 10px 0;
+    height: 140px;
     box-sizing: border-box;
     .title {
       font-size: 60px;

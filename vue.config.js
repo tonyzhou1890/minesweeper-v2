@@ -9,6 +9,9 @@ module.exports = {
     name: '扫雷',
     themeColor: '#648CBA',
     msTileColor: '#E0CCCC',
+    workboxOptions: {
+      skipWaiting: true
+    },
     manifestOptions: {
       background_color: '#E0CCCC'
     },
