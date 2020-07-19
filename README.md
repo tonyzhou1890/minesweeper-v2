@@ -1,24 +1,12 @@
 # minesweeper-v2
+> 扫雷小游戏
 
-## Project setup
-```
-yarn install
-```
+# 功能
+* [x] 选择难度
+* [x] 设置背景和皮肤
+* [x] 本地进度存储
+* [x] pwa
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## 更新日志
+### v2.0.0--2020.07.19
+1. 基本完成。（1.0.0 是几年前最原始的版本。）
